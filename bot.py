@@ -24,18 +24,11 @@ REPLIED_IDS_FILE = "replied_ids.txt"
 REPLY_TEMPLATE = """\
 It looks like you're asking whether Black Ops 3 is safe to play online. \
 Currently, the **official BO3 servers have an active RCE (Remote Code Execution) vulnerability**, \
-meaning a malicious player could potentially execute code on your machine just by being in the same lobby.
+meaning anyone can potentially execute code on your machine simply by you connecting to the BO3 servers — you don't even need to be in the same lobby as an attacker.
 
 Here's a guide on how to protect yourself and play safely:
 
 **[BO3 Safe Play Guide]({guide_url})**
-
-Key steps from the guide:
-- Use a VPN or play in a private lobby with trusted friends
-- Avoid public lobbies until the vulnerability is patched
-- Keep an eye on community updates for patch announcements
-
-Stay safe out there!
 
 ---
 *^(I am a bot. If this reply isn't relevant, please ignore it.)*
