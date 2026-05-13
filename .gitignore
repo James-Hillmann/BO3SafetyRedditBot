@@ -1,0 +1,5 @@
+.env
+replied_ids.txt
+bot.log
+__pycache__/
+*.pyc
