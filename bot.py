@@ -21,18 +21,18 @@ SUBREDDIT = "blackops3"
 GUIDE_URL = "https://www.reddit.com/r/blackops3/s/0bAMIZzC4I"
 REPLIED_IDS_FILE = "replied_ids.txt"
 
-REPLY_TEMPLATE = """\
+REPLY_TEMPLATE = f"""\
 It looks like you're asking whether Black Ops 3 is safe to play online. \
 Currently, the **official BO3 servers have an active RCE (Remote Code Execution) vulnerability**, \
 meaning anyone can potentially execute code on your machine simply by you connecting to the BO3 servers — you don't even need to be in the same lobby as an attacker.
 
 Here's a guide on how to protect yourself and play safely:
 
-**[BO3 Safe Play Guide]({guide_url})**
+**[BO3 Safe Play Guide]({GUIDE_URL})**
 
 ---
 *^(I am a bot. If this reply isn't relevant, please ignore it.)*
-""".format(guide_url=GUIDE_URL)
+"""
 
 # Patterns that suggest someone is asking about game/server safety
 SAFETY_PATTERNS = [
